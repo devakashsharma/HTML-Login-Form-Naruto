@@ -27,7 +27,10 @@
     <!-- It is use to break the line means it give send us to the next line -->
 
     <br> <br> 
-    <label for="txtara">Please enter your opinion : &nbsp;</label>
+    
+    <!-- Asking public review -->
+    
+    <label for="txtara">Please enter your review : &nbsp;</label>
     <textarea name="" id="txtara" cols="20" rows="1"></textarea>
     <br> <br>
     

@@ -1,0 +1,109 @@
+<!-- # Starting Project on Naruto Fan Feedback page with the help of HTML -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title Declared  -->
+
+    <title>Naruto</title>
+  </head>
+  <body>
+    <form>
+      <!-- Creating Field Set for better experience it means the form will be in the box -->
+
+      <fieldset>
+        <legend>
+          <b><h1>Fans Details!</h1></b>
+        </legend>
+
+        <h2>Hello Weebs!!</h2>
+        <h3>
+          <p>It is Unoffical feedback of Naruto Series</p>
+          <p> Here, users have to give their
+            opinion on Naruto.</p>
+        </h3>
+        <br />
+
+        <!-- Taking Users Name -->
+
+        <label for="nme">Please enter your name : &nbsp; &nbsp;</label>
+        <input
+          type="text"
+          id="nme"
+          name="username"
+          placeholder="Akash"
+          autofocus
+        />
+
+        <!-- It is use to break the line means it give send us to the next line -->
+
+        <br />
+        <br />
+
+        <!-- Asking public review -->
+
+        <label for="txtara">Please enter your review : &nbsp;</label>
+        <textarea
+          name="useremail"
+          id="txtara"
+          cols="20"
+          rows="1"
+          placeholder="abc@example.com"
+        ></textarea>
+        <br />
+        <br />
+
+        <!-- Taking Users DOB -->
+
+        <label for="DOB">Enter your Birthdate</label>
+        <input type="date" id="DOB" name="DOB" />
+        <br />
+        <br />
+
+        <!-- Now we asking Users Password -->
+
+        <label for="password">Enter your password</label>
+        <input type="password" id="password" name="pass" />
+        <br />
+        <br />
+
+        <!-- Asking Gender -->
+
+        Select Gender : <br />
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="Gender" value="male" />
+        <br />
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="Gender" value="female" />
+        <br />
+        <label for="trans">Transgender</label>
+        <input type="radio" name="Gender" id="trans" value="trans" />
+        <br />
+        <br />
+
+        <!-- Users Favourite Series but they can choose every options -->
+
+        Select Your Favourite Series : <br />
+        <label for="NT">Naruto</label>
+        <input type="checkbox" name="Naruto" id="NT" />
+        <br />
+        <label for="NS">Naruto Shippuden</label>
+        <input type="checkbox" name="NaSh" id="NS" />
+        <br />
+        <label for="BT">Boruto</label>
+        <input type="checkbox" name="Boruto" id="BT" />
+        <br />
+        <br />
+        <br />
+
+        <!-- Now we are closing the form with submit attribute -->
+
+        <input type="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
